@@ -1,21 +1,18 @@
 {
-  "name": "basquiat",
+  "name": "ng-shapes",
   "version": "1.0.0",
   "description": "Library for data visualization",
-  "main": "basquiat.js",
+  "main": "ng-shapes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/admetricks/basquiat.git"
+    "url": "https://github.com/sebaduran/ng-shapes.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/admetricks/basquiat/issues"
-  },
-  "homepage": "https://github.com/admetricks/basquiat",
+  "homepage": "https://github.com/sebaduran/ng-shapes.git",
   "dependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
