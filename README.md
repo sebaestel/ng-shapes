@@ -6,7 +6,7 @@ Angular directive to create basic shapes using d3
 - Clone repository
 
 ```
-git clone git@github.com:admetricks/basquiat.git
+git clone git@github.com:sebaestel/ng-shapes.git
 ```
 
 or use bower
