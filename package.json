@@ -1,0 +1,24 @@
+{
+  "name": "basquiat",
+  "version": "1.0.0",
+  "description": "Library for data visualization",
+  "main": "basquiat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admetricks/basquiat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/admetricks/basquiat/issues"
+  },
+  "homepage": "https://github.com/admetricks/basquiat",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-jslint": "^1.1.14"
+  }
+}

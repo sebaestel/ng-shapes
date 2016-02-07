@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app="appTest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ng-shapes</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="../bower_components/chroma-js/chroma.js"></script>
+    <script src="../bower_components/moment/moment.js"></script>
+    <script src="../bower_components/angular-moment/angular-moment.js"></script>
+    <script src="../bower_components/moment/locale/es.js"></script>
+    <script type="text/javascript" src="../bower_components/d3/d3.js"></script>
+    <script type="text/javascript" src="../ng-shapes.js"></script>
+
+    <script type="text/javascript" src="example.js"></script>
+</head>
+<body ng-controller="appTestController">
+    <shape
+        style="width: 200px; height: 200px; display: inline-block"
+        shape-options="{{ circle }}"
+        id="circle-1">
+    </shape>
+    <shape
+        style="width: 200px; height: 200px; display: inline-block"
+        shape-options="{{ circleImage }}"
+        id="circle-2">
+    </shape>
+
+    <shape
+        style="width: 200px; height: 200px; display: inline-block"
+        shape-options="{{ square }}"
+        id="square-1">
+    </shape>
+    <shape
+        style="width: 200px; height: 200px; display: inline-block"
+        shape-options="{{ squareImage }}"
+        id="square-2">
+    </shape>
+
+    <shape
+        style="width: 200px; height: 200px; display: inline-block"
+        shape-options="{{ triangle }}"
+        id="triangle-1">
+    </shape>
+    <shape
+        style="width: 200px; height: 200px; display: inline-block"
+        shape-options="{{ triangleImage }}"
+        id="triangle-2">
+    </shape>
+</html>
